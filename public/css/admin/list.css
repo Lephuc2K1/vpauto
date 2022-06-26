@@ -1,0 +1,115 @@
+	.category-table tr td:first-child{
+		padding: 5px 0px 5px 0px;
+		text-align: center;
+		width: 45px;
+	}
+	.category-table tr td:first-child input{
+		width: 20px;height: 20px;
+	}
+	.category-table th.manage-column{
+		text-align: left;
+	}
+	.category-table .column-thumb{
+		width: 100px;
+	}
+	.category-table tr .column-name{
+		width: 20%;
+	}
+	th#desc {
+		width: 20%;
+	}
+	.category-table tr .column-date {
+		width: 20%;
+	}
+	.category-table tr .column-featured {
+		width: 15%;
+	}
+	.category-table tr .column-product_cat {
+		width: 100px;
+	}
+	.category-table tr .column-function {
+		width: 150px;
+	}
+table.list-category tr:nth-child(even) td .icon-function a:first-child i,table.list-category tr:nth-child(even) td .icon-function a:nth-child(2) i,table.list-category tr:nth-child(even) td .icon-function a:nth-child(3) i{
+			color: #0017F3;
+			background: hsla(234,100%,50%,0.16);
+		}
+	.icon-function a:last-child i{
+		color: #FF0004;
+		background:hsla(359,100%,49%,0.15);
+		margin-top: 5px;
+	}
+	.icon-function a i:hover {
+		box-shadow: 0px 0px 3px 0px #b1b1b1;
+		opacity: 0.8;
+	}
+	table.list-category tr:nth-child(even) td .icon-function a:last-child i{
+		color: #FF0004;
+		background:hsla(359,100%,49%,0.15);
+		margin-top: 5px;
+	}
+	 table.list-category tr:nth-child(even) td{
+        background-color: #FFFFFF;
+    }
+	table.list-category tr:nth-child(even) th{
+        background-color: #FFFFFF;
+		height: 1000px;
+    }
+	table.list-category tr:nth-child(even) th{
+			background-color: #FFFFFF;
+			height: 100px;
+		}
+	table.list-category tr:nth-child(even) td a i{
+		background-color: #F2F2F2;
+	}
+	.list-category tr th{
+		text-align: center;
+	}
+	.list-category tr th input{
+		width: 20px;height: 20px;
+	}
+	.list-category tr td img{
+		width: 80px;
+	}
+	.list-category tr td ul{
+		list-style-type: none;
+	}
+	.list-category tr td ul li{
+		list-style-type: none;
+		margin-right: 7px;
+	}
+	.list-category tr td ul li input{
+		width: 15px;
+		height: 15px;
+	}
+	.list-category * {
+    word-break: break-word;
+		}
+	.list-category td{
+		    vertical-align: top;
+			padding: 10px 12px;
+	}
+	.list-category th{
+		padding: 10px 12px;
+	}
+	.list-category #the-list tr th{
+		position: relative;
+	}
+.txt-name-hide{
+	display: none;
+}
+#product_cat{
+/*	width: 250px;*/
+}
+#fiter-cat #product_cat{
+	margin-left: 10px;
+}
+td#cb {
+    width: 20px;
+}
+th#is_in_stock {
+    width: 100px;
+}
+.category-table tr td.column-cb{
+	
+}

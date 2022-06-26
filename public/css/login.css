@@ -1,0 +1,223 @@
+
+			body{
+			background: url("../img/imgbgr/Lovepik_com-500738259-ground-background-of-urban-highway.jpg") no-repeat center center fixed;
+			background-size: cover;
+/*			overflow: hidden;*/
+		}
+			.account{
+			background-color:white;
+			padding: 70px 20px;
+			display:table;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%,-50%);
+			z-index: 34;
+			border-radius: 7px;
+			
+		}
+		.account ul{
+			display: flex;
+			padding-left: 0px;
+
+		
+		}
+		.account ul li {
+list-style-type: none;
+
+		}
+		.account ul li.active a span{
+			font-size: 22px;
+			border-bottom: 2px #FF0408 solid;
+			font-weight: 600;
+		}
+		.account ul li a{
+			text-decoration: none;
+			color: #1E1E1E;
+		}
+		.account ul li a span{
+			padding: 10px 15px;
+			display: block;
+			font-size: 16px;
+			cursor: pointer;
+			
+		}
+		#account .remember{
+			display: flex;
+			justify-content: space-between;
+			padding: 10px;
+			padding-top: -10px;
+			
+		}
+		#account .remember .reset-account a{
+		line-height: 40px;
+		}
+		#login .btn-login{
+			text-align: center;
+		}
+		#account .form-group input{
+			width: 100%;
+			padding:7px;
+			border-radius: 5px;
+			border: 1px #707070 solid;
+			
+
+		}
+		#account .form-group input:focus{
+			outline: none;
+		}
+		#account .btn-login button,#account .btn-register button{
+			width: 100%;
+			border: none;
+			padding: 10px 0px;
+			font-size: 16px;
+			background: #FFFFFF;
+			border:#E81316 2px solid;
+			border-radius: 5px;
+			font-weight: 550;
+			color: #E81316;
+		}
+		#account button:hover{
+			background: #FCFCFC;
+			cursor:pointer;
+		}
+
+		 #account .btn-register button{	
+			 background: #E81316;
+			color: whitesmoke;		}
+		#account .btn-login button{
+			background: #E81316;
+			color: whitesmoke;
+		}
+		.or-login{
+			text-align: center;
+			padding: 10px;
+		}
+		.icon-login a{
+			text-decoration: none;
+		}
+		.icon-login a span{
+			padding: 10px;
+			display: block;
+			font-size: 16px;
+			border-radius: 5px;
+			box-shadow: 0px 0px 6px 1px #74747466;
+
+		}
+		.icon-login a span i{
+			margin-right: 5px;
+			font-size: 20px;
+		
+			
+		}
+		#reset-acc{
+			cursor:pointer;
+		}
+		.icon-login a:hover span{
+			box-shadow: 0px 0px 6px 1px red;
+		}
+		
+		#img-acc{
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%,-50%);
+			z-index: 33;
+		}
+		.from-account.active{
+			display: block;
+		}
+		.from-account{
+			display: none;
+		}
+		.logo-login{
+		text-align: center;
+		}
+		.logo-login img{
+		width: 200px;
+		}
+	.title-forgetpass{
+				text-align: center;
+				    padding: 10px 0px 30px 0px;
+					width: 450px;
+			}
+			.title-forgetpass span{
+				font-size: 22px;
+				font-weight: 600;
+				
+			}
+			#account div button:hover{
+				background: #FFFFFF;
+				color: #101010
+				
+			}
+			#backs i{
+				color: #2C2C2C;
+			}
+			 #backs:hover i{
+				color: #D00C10;
+			}
+			#newpass .form-group input{
+				margin:  20px 0px;
+			}
+			.title-newpass{
+				text-align: center;
+				font-size: 22px;
+				font-weight: 600;
+				width: 300px;
+				margin-top: 10px;
+				
+			}
+.error-link{
+	background: #ffff;
+	text-align: center;
+
+	display:table;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%,-50%);
+			z-index: 34;
+			border-radius: 7px;
+			padding: 30px 50px;
+	    border: 5px solid red;
+}
+.error-link.active{
+	 border: 5px solid #08FF43;
+}
+.error-link #vptt{
+	font-size: 20px;
+	font-weight: 600;
+	padding-bottom: 10px;
+}
+.error-link a{
+/*	color: black;*/
+	font-weight: 600;
+	text-decoration: none;
+}
+.error-link a:hover{
+	color: red;
+}
+.err_lh {
+	text-align: left;font-size: 13px;
+	padding-top: 10px;
+}
+.err_lh li{
+	float: left;
+	list-style-type: none;
+	margin-right:10px;
+	
+}
+.err_lh li i{
+	font-size: 30px;
+}
+.error-link #thanklh{
+	text-align: center;
+	 margin-top: 30px;
+}
+.err_lh div{
+	padding-top: 10px;
+}
+.err_lh div >a i{
+	margin-right: 5px;
+}

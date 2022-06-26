@@ -1,0 +1,128 @@
+@charset "utf-8";
+@import "compass/css3";
+/* CSS Document */
+/* thanh công cụ header v1*/
+.fa{
+/*	color:white;*/
+}
+.hd--v1-icon i{
+	padding: 9px;
+	box-sizing:content-box;
+}
+.hd--v1-icon i:hover{
+	background: #F7EFEF;
+}
+.hd--v1-icon .fa-facebook:hover{color: blue;}.hd--v1-icon .fa-instagram:hover{color:#BA30B0;}.hd--v1-icon .fa-youtube:hover{color: red;}.hd--v1-icon .fa-twitter-square:hover{color: blue;}.hd--v1-icon .fa-pinterest:hover{color: red;}.hd--v1-icon .fa-linkedin-in:hover{color: black;}
+.header--v1--left i:hover{
+	background: #F8F5F5;
+	color: #f10000;
+	padding: 9px;
+}
+.header--v1--left i{
+	padding: 9px;
+}
+
+
+/*tìm kiếm*/
+	#inputsearch {
+    height: 40px;
+    background: none;
+    border-width: 0 0 1px;
+    font-size: 16px !important;
+    border: 0;
+    width: 100%;
+    padding-left: 15px;
+}
+ #inputsearch:focus {
+    outline: none;
+	}
+    .btn-search,.btn-close-search {
+    height: 40px;
+    width: 40px;
+    background: none;
+    border: none;
+    position: absolute;
+		right: 35px;
+}
+
+.btn-search i{
+	margin-left: 0px;
+}
+.search--txt i{
+	font-size: 16px;
+}
+.btn-search:hover{
+	background: red;
+}
+button#btn-close-search {
+    right: 0;
+}
+button#btn-close-search:hover i {
+   color: red;
+}
+.btn-search:hover i{
+	color: white;
+	
+}
+.btn-search i{
+	color: #f10000
+}
+/*header v2*/
+.header--v2 .header--v2--right{
+/*	height: 150px;
+	width: 700px;
+	position:absolute;
+	right: 15px;*/
+/*	position: relative;*/
+}
+.hd--v2--icon{
+	display: flex;
+    justify-content: space-between;
+}
+.hd--v2--icon li{
+	list-style: none;
+	float: left;
+/*	margin-left: 25px;*/
+}
+.hd--v2--icon li i{
+	background: #fffff;
+    width: 30px;
+    height: 30px;
+	border: 1px red solid;
+    border-radius: 50%;
+    line-height: 30px;
+    text-align: center;
+    color: #f100000;
+    margin-right: 10px;
+}
+ .header--v2--right_mobile .hd--v2--icon li i{
+	font-size: 25px;
+	 border: none;
+	 cursor: pointer;
+}
+.hd--v2--icon li i{
+	font-size: 15px;
+	color: #CA3538;
+	
+}
+.hd--v2--icon li strong{
+	font-size: 18px;
+	font-weight:bold;
+	
+}
+.hd--v2--icon li span{
+	font-size: 18px;
+/*	margin-left: 42px;*/
+}
+.hd--v2--icon li{}
+.hd--v2--icon .hd--v2--itemicon{
+}
+.fa-phone-volume::before{
+/*	content: "\f2a0 "*/
+}
+.hd--v3--right > div .fa-globe, .hd--v3--right > div .fa-user-circle, .hd--v3--right > div .fa-magnifying-glass,.hd--v3--right > div .fa-steering-wheel, .hd--v3--right > div .fa-shopping-cart{
+	font-size: 20px;
+	color:#363636;
+	cursor: pointer;
+	padding: 10px 0px;
+}

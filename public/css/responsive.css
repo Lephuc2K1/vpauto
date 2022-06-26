@@ -1,0 +1,168 @@
+/* màn hình mobile*/
+
+    
+@media (max-width: 575.98px) {
+/*	 trang chủ*/
+	.row-v2 .nav-tap-row2 li {
+  		margin: 10px 0px;
+	}
+	.r1-info-we .info-we{
+		width: 100%;
+		 position: unset;
+		transform: translate(0%);
+		
+	}
+	.into-we h2{
+		    display: unset;
+	}
+	
+	.r1-info-we:hover .info-we{
+				margin-top: 0;
+		}
+	.img-why .why-block .block-v1{
+	text-align: left!important;
+	}
+	.img-why .why-block .block-v2 {
+		position: absolute;
+		    bottom: 0 !important;
+	left: 100% !important;
+    transform: translate(-100%,-3%)!important;
+		
+	}
+	.img-why{
+    padding-top: 50px;
+}
+/*
+	img.js-in-parallax-v2 {
+		border-radius: 50%;
+		box-shadow: 1px 1px 11px 4px white;
+	}
+*/
+	.nav-tap-row4 li{
+		    margin: 10px 0px;
+	}
+	.col-items {
+		width: calc(100%/1);
+		height: 200px;
+	}
+	.text-send {
+		text-align: center;
+	}
+		.logo-footer img {
+		max-width: 40% !important;
+		height: auto;
+	}
+	
+div#logo img {
+    width: 70% !important;
+}
+.filter-seach {
+    position: fixed;
+    z-index: 9999999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	opacity: 0;
+    visibility: hidden;
+	transition: all 0.3s ease;
+}
+.filter-seach.active {
+    opacity: 1;
+    visibility: visible;
+}
+/*	chi tiết sản phẩm*/
+	#btn-dg{
+				width: 100%;
+				text-align: center;
+				border-radius: 10px;
+				}
+				.tabs-content .tabs {
+					display: flex;
+					flex-direction: column;
+				}
+				.tabs-content .tabs .items-content {
+					padding-right: 0;
+				}
+	#btn-lh{
+				width: 100%;
+				text-align: center;
+				border-radius: 10px;
+				}
+/*	tin tức*/
+}
+
+/* màn hình ipat*/
+@media (min-width: 576px) and (max-width:991.98px) {
+/*	trang chủ*/
+	.r1-info-we .info-we{
+		width: 90%;
+		padding: 10px;
+		transform: translate(-50%,-50%);
+		left: 50%;
+		top: 50%;
+	}
+	.see-more-sv button {
+   
+    display: none;
+}
+	.into-we h2{
+		    display: unset;
+	}
+	.img-why .why-block .block-v1{
+	text-align: left !important;
+	}
+	img.js-in-parallax-v1 {
+		background-size: cover;
+		object-fit: cover;
+	}
+	.why-block.col-12 {
+/*    position: absolute;*/
+    top: 50%;
+    transform: translateY(-50%);
+}
+	.col-items {
+		width: calc(100%/3);
+	}
+	.text-send {
+		text-align: center;
+	}
+	.img-why .why-block .block-v2 {
+		position: absolute;
+		    bottom: 0 !important;
+		left: 70% !important;
+		transform: translate(-70%,0%)!important;
+		
+	}
+	.img-why{
+    padding-top: 80px;
+}
+	.logo-footer img {
+    max-width: 40% !important;
+    height: auto;
+}
+	div#logo img {
+    width: 50% !important;
+}
+.filter-seach {
+    position: fixed;
+    z-index: 99999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	opacity: 0;
+    visibility: hidden;
+	transition: all 0.3s ease;
+}
+.filter-seach.active {
+    opacity: 1;
+    visibility: visible;
+}
+}
+/*
+
+màn hình ipat và mobile
+@media (max-width:991.98px){
+	div#logo img {
+    width: 70% !important;
+}
+}*/
