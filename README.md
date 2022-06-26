@@ -9,4 +9,4 @@ Xây dựng website kinh doanh ô tô VPAUTO
 + CRUD/ Fillter/ Search sản phẩm, danh mục, menu, bài viết, user,...
 + Login Facebook, Google
 + Gửi Email
-Đang trong gai đoạn nâng cấp MVC full code
+- Đang trong gai đoạn nâng cấp MVC full code
